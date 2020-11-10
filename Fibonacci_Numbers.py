@@ -5,7 +5,7 @@ def Fibonacci(end_num):
     b = 1
     for i in range(end_num-2):
         c = a + b
-        print(str(c)+" ")
+        print(c)
         a = b
         b = c
 
