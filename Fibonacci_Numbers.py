@@ -8,6 +8,6 @@ def Fibonacci(end_num):
         print(c)
         a = b
         b = c
-
+        i+=1
 end_num = int(input(print("Enter the number of fibnonacci numbers you want")))
 Fibonacci(end_num)
